@@ -1,0 +1,191 @@
+{
+  "Home": {
+    "setupRequired": "Configuration requise",
+    "setupRequiredDescription": "Cette application doit être configurée par un administrateur.",
+    "loginWithPlex": "Se connecter avec Plex",
+    "rewind": "Démarrer Rewind",
+    "dashboard": "Tableau de bord",
+    "signOut": "Se déconnecter"
+  },
+  "Dashboard": {
+    "noActivity": "Aucune activité pendant cette période.. 😴",
+    "title": "Tableau de bord",
+    "users": "utilisateurs",
+    "movies": "films",
+    "episodes": "épisodes",
+    "tracks": "pistes",
+    "requests": "demandes"
+  },
+  "DashboardFilters": {
+    "type": "Type",
+    "general": "Général",
+    "personal": "Personnel",
+    "sortByLabel": "Trier par",
+    "sort": "Trier",
+    "byDuration": "Par durée",
+    "byPlays": "Par lectures"
+  },
+  "DashboardNavContent": {
+    "label": "Navigation du tableau de bord",
+    "users": "Utilisateurs"
+  },
+  "Error": {
+    "title": "Oups.. quelque chose s'est mal passé !",
+    "cta": "Réessayer"
+  },
+  "PlexDeeplink": {
+    "available": "Disponible"
+  },
+  "PeriodSelectContent": {
+    "7days": "7 jours",
+    "today": "Aujourd'hui",
+    "pastYear": "Année passée",
+    "allTime": "Depuis toujours",
+    "days": "jours",
+    "label": "Sélection de la période"
+  },
+  "NotFound": {
+    "title": "404",
+    "description": "La page demandée est introuvable.",
+    "cta": "Il serait peut-être préférable de recommencer."
+  },
+  "AppProvider": {
+    "starsAlt": "Fond d'étoiles",
+    "updateAvailable": "Mise à jour disponible",
+    "closeSettings": "Fermer les paramètres",
+    "openSettings": "Ouvrir les paramètres"
+  },
+  "Offline": {
+    "title": "Vous êtes hors ligne"
+  },
+  "Settings": {
+    "title": "Paramètres",
+    "getStarted": "Commençons",
+    "updateAvailable": "Mise à jour disponible",
+    "saved": "Paramètres enregistrés !",
+    "genericError": "Quelque chose s'est mal passé !",
+    "save": "Enregistrer",
+    "apiKey": "Clé API",
+    "invalidApiKey": "Clé API invalide !",
+    "unableToConnect": "Impossible de se connecter !",
+    "buyMeACoffee": "Offrez-moi un café",
+    "becomeASponsor": "Devenir sponsor",
+    "reportAnIssue": "Signaler un problème",
+    "Nav": {
+      "label": "Navigation",
+      "connection": "Connexion",
+      "general": "Général",
+      "rewind": "Rewind",
+      "dashboard": "Tableau de bord"
+    },
+    "Connection": {
+      "title": "Paramètres de connexion"
+    },
+    "Dashboard": {
+      "title": "Paramètres du tableau de bord",
+      "customPeriodError": "La période personnalisée doit être > 0 et <= 3000",
+      "startDateError": "Date de début invalide",
+      "usersPage": "Page des utilisateurs",
+      "statistics": "Statistiques",
+      "itemStatistics": "Statistiques des éléments",
+      "totalStatistics": "Statistiques totales",
+      "sortByPlaysFilter": "Trier par filtre de lectures",
+      "customPeriod": "Période personnalisée",
+      "inDays": "En jours.",
+      "startDateHelperText": "Utilisé pour la période depuis toujours."
+    },
+    "General": {
+      "title": "Paramètres généraux",
+      "libraries": "Bibliothèques",
+      "activeLibraries": "Bibliothèques actives",
+      "noLibrariesMessage1": "Veuillez créer une bibliothèque dans Plex pour continuer.",
+      "noLibrariesMessage2": "Plex Rewind nécessite au moins une bibliothèque pour fonctionner.",
+      "media": "Médias",
+      "tmdbOnlyPosters": "Affiches TMDB uniquement",
+      "tmdbOnlyPostersDescription1": "Ignorer les affiches Plex pour les séries/films.",
+      "tmdbOnlyPostersDescription2": "Par défaut, TMDB est une solution de secours.",
+      "privacy": "Confidentialité",
+      "outsideAccess": "Autoriser l'accès extérieur",
+      "outsideAccessDescription": "Accès sans connexion.",
+      "anonymize": "Anonymiser",
+      "anonymizeDescription": "Masquer les noms d'utilisateur pour les autres utilisateurs.",
+      "analytics": "Analyses"
+    },
+    "Rewind": {
+      "title": "Paramètres de Rewind",
+      "endDateMustBeAfterStartDateError": "La date de fin doit être après la date de début",
+      "startDateMustBeBeforeEndDateError": "La date de début doit être avant la date de fin",
+      "cards": "Cartes",
+      "librariesSizeAndCountCard": "Carte de taille et de nombre de bibliothèques",
+      "librariesSizeAndCountCardDescription": "Désactiver si vous ne souhaitez pas vous fier à Tautulli pour ces statistiques.",
+      "startDateHelperText": "Par défaut, il y a 365 jours.",
+      "endDateHelperText": "Par défaut, aujourd'hui."
+    }
+  },
+  "LocaleSelect": {
+    "label": "Sélectionner la langue"
+  },
+  "UserSelect": {
+    "label": "Sélectionner l'utilisateur"
+  },
+  "Common": {
+    "enabled": "Activé",
+    "status": "Statut",
+    "year": "Année",
+    "rating": "Évaluation",
+    "duration": "Durée",
+    "plays": "Lectures",
+    "users": "Utilisateurs",
+    "requests": "Demandes",
+    "count": "Nombre",
+    "size": "Taille",
+    "defaults": "Par défaut",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "profilePictureAlt": "photo de profil"
+  },
+  "DatePicker": {
+    "clear": "Effacer la date"
+  },
+  "Loader": {
+    "loading": "Chargement..."
+  },
+  "Rewind": {
+    "Common": {
+      "top": "Voici votre <top>Top {count}</top>"
+    },
+    "Welcome": {
+      "welcome": "Bienvenue dans votre <rewind>Plex Rewind</rewind>",
+      "takeYouThrough": "Nous vous guiderons à travers vos moments forts",
+      "letsGetStarted": "Commençons !",
+      "forPastYear": "pour l'<pastYear>année passée.</pastYear>",
+      "singleDate": "pendant <singleDate>{singleDateValue}</singleDate>.",
+      "dateRange": "du <startDate>{startDateValue}</startDate> au <endDate>{endDateValue}</endDate>."
+    },
+    "Total": {
+      "duration": "Vous avez passé un <total>Total</total> de <duration>{durationValue}</duration> sur <plex>Plex !</plex>",
+      "percentage": "Cela représente <percentage>{percentageValue}</percentage> de toutes les lectures, qui ont totalisé <duration>{durationValue}</duration> pour tous les utilisateurs.",
+      "noData": "Vous n'avez rien joué sur <plex>Plex</plex> <emoji>😫</emoji>"
+    },
+    "Users": {
+      "top": "Voici comment vous vous comparez aux autres <users>Utilisateurs</users>"
+    },
+    "Audio": {
+      "duration": "Pour finir, vous avez écouté <duration>{durationValue}</duration> d'<audio>Audio</audio>",
+      "count": "Vous avez écouté <count>{countValue}</count> <tracks>pistes</tracks> au total !",
+      "favorite": "Votre préféré était",
+      "noData": "Vous n'avez écouté aucun <audio>Audio</audio> de <from>Plex</from>"
+    },
+    "Libraries": {
+      "filesize": "Saviez-vous que la <filesize>Taille des fichiers</filesize> de tout le contenu disponible sur <plex>Plex</plex> est de <size>{sizeValue} !</size>",
+      "libraries": "La bibliothèque actuelle se compose de :",
+      "movies": "{count, plural, =1 {Film} other {Films}}",
+      "episodes": "{count, plural, =1 {Épisode} other {Épisodes}}",
+      "tracks": "{count, plural, =1 {Piste} other {Pistes}}"
+    },
+    "Shows": {
+      "duration": "<library>Séries TV</library> ont pris <duration>{durationValue}</duration> de votre temps sur <plex>Plex.</plex>",
+      "count": "Vous avez regardé <count>{countValue}</count> <episodes>épisodes</episodes> au total !",
+      "favorite": "Votre préféré était",
+      "noData": "Vous n'avez regardé aucune <shows>Séries TV</shows> sur <plex>Plex</plex> <emoji>😥</emoji>"
+    },
