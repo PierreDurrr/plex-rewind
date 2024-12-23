@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Semantic Release dry run
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: npx semantic-release --dry-run
 
       - name: Set up QEMU
@@ -48,7 +48,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.GIT_TOKEN }}
 
       - name: Build and push Docker image
         if: env.NEXT_VERSION_TAG
@@ -58,8 +58,8 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/raunot/plex-rewind:develop
-            ghcr.io/raunot/plex-rewind:${{ env.NEXT_VERSION_TAG }}
+            ghcr.io/pierredurrr/plex-rewind:develop
+            ghcr.io/pierredurrr/plex-rewind:${{ env.NEXT_VERSION_TAG }}
           build-args: |
             NEXT_PUBLIC_VERSION_TAG=${{ env.NEXT_VERSION_TAG }}
           cache-from: type=gha
@@ -68,5 +68,5 @@ jobs:
       - name: Run Semantic Release publish
         if: env.NEXT_VERSION_TAG
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: npx semantic-release
